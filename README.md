@@ -6,6 +6,8 @@ Open one page with your morning coffee. See what changed across your projects, w
 
 ## Try the loop with PMP PrepLoop
 
+[Follow the first public Daily example](daily/examples/homepage-first-click.md) to see how a homepage check led to a question about finding PMP practice.
+
 [Visit Project Loops](https://project-loops.vercel.app/). [PMP PrepLoop](https://project-loops.vercel.app/pmp) is one sub-project inside Project Loops. Learners use it to practise PMP questions and review their answers.
 
 For a first run, pick one change you can verify. For example, open the Project Loops homepage, follow the PMP link and record whether you can reach practice. Save the result and the date in the PrepLoop section of your desk. If the check reveals a problem that needs your attention, bring it up to the overview.
