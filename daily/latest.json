@@ -1,9 +1,70 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-23T15:41:30Z",
-  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T21:59:54Z",
+  "date": "2026-11-24",
   "purpose": "Help working project managers decide what deserves attention across Project Loops.",
   "logs": [
+    {
+      "changes": [
+        {
+          "field": "What we learn",
+          "before": [
+            "The homepage leads to PMP PrepLoop"
+          ],
+          "after": [
+            "The first-time visitor check is still open",
+            "One question report awaits review"
+          ],
+          "reason": "Watch a new visitor before deciding whether the homepage label needs to change. Review the existing report to decide whether the question needs an edit.",
+          "evidence": [
+            "Public starter example",
+            "Homepage and practice checks",
+            "Aggregate question report counts"
+          ]
+        },
+        {
+          "field": "Next Actions",
+          "before": [
+            "Proposed: Observe one project manager finding PMP PrepLoop"
+          ],
+          "after": [
+            "Proposed: Observe one project manager finding PMP PrepLoop",
+            "Proposed: Review the outstanding practice question report"
+          ],
+          "reason": "The published action list reflects new proposals and the recorded owner decisions. Publication does not execute an action.",
+          "evidence": [
+            "Tracked actions and reviewed proposals"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-23T21:59:54Z",
+      "coverage": {
+        "feedback": "available",
+        "development": "available",
+        "operations": "available",
+        "analytics": "unavailable",
+        "errors": "unavailable",
+        "practice": "unchanged"
+      },
+      "findings": [
+        {
+          "title": "The first-time visitor check is still open",
+          "detail": "The founder tried the route to practice. The public example now explains how to repeat the check with a first-time visitor and record their first click, expectation and outcome.",
+          "evidence": [
+            "Public starter example",
+            "Homepage and practice checks"
+          ]
+        },
+        {
+          "title": "One question report awaits review",
+          "detail": "The question queue has one open report and received no new reports in the review window.",
+          "evidence": [
+            "Aggregate question report counts"
+          ]
+        }
+      ],
+      "impact": "changed"
+    },
     {
       "changes": [
         {
@@ -55,22 +116,29 @@
     }
   ],
   "coverage": {
-    "feedback": "none",
+    "feedback": "available",
     "development": "available",
     "operations": "available",
     "analytics": "unavailable",
     "errors": "unavailable",
-    "practice": "unavailable"
+    "practice": "unchanged"
   },
   "highlights": [
     {
-      "title": "The homepage leads to PMP PrepLoop",
-      "detail": "The homepage links to the practice product and the destination responded during this check. A first-click observation from a project manager is still outstanding.",
-      "why": "A working link lets us run the discovery test. Observing a visitor will show whether the link is easy to find.",
+      "title": "The first-time visitor check is still open",
+      "detail": "The founder tried the route to practice. The public example now explains how to repeat the check with a first-time visitor and record their first click, expectation and outcome.",
+      "why": "Watch a new visitor before deciding whether the homepage label needs to change.",
       "evidence": [
-        "Homepage navigation check",
-        "Practice page check",
-        "Discovery experiment"
+        "Public starter example",
+        "Homepage and practice checks"
+      ]
+    },
+    {
+      "title": "One question report awaits review",
+      "detail": "The question queue has one open report and received no new reports in the review window.",
+      "why": "Review the existing report to decide whether the question needs an edit.",
+      "evidence": [
+        "Aggregate question report counts"
       ]
     }
   ],
@@ -79,6 +147,12 @@
       "id": "homepage-first-click",
       "title": "Observe one project manager finding PMP PrepLoop",
       "outcome": "Record their first click, what they expected and whether they reached the practice product.",
+      "status": "proposed"
+    },
+    {
+      "id": "review-open-question-report",
+      "title": "Review the outstanding practice question report",
+      "outcome": "Record whether the question needs a correction and update the report after review.",
       "status": "proposed"
     }
   ]
