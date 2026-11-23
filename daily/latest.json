@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "publishedAt": "2026-11-23T15:41:30Z",
+  "date": "2026-11-23",
+  "purpose": "Help working project managers decide what deserves attention across Project Loops.",
+  "logs": [
+    {
+      "changes": [
+        {
+          "field": "What we learn",
+          "before": [],
+          "after": [
+            "The homepage leads to PMP PrepLoop"
+          ],
+          "reason": "A working link lets us run the discovery test. Observing a visitor will show whether the link is easy to find.",
+          "evidence": [
+            "Homepage navigation check",
+            "Practice page check",
+            "Discovery experiment"
+          ]
+        },
+        {
+          "field": "Next Actions",
+          "before": [],
+          "after": [
+            "Proposed: Observe one project manager finding PMP PrepLoop"
+          ],
+          "reason": "The published action list reflects new proposals and the recorded owner decisions. Publication does not execute an action.",
+          "evidence": [
+            "Tracked actions and reviewed proposals"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-23T15:41:30Z",
+      "coverage": {
+        "feedback": "none",
+        "development": "available",
+        "operations": "available",
+        "analytics": "unavailable",
+        "errors": "unavailable",
+        "practice": "unavailable"
+      },
+      "findings": [
+        {
+          "title": "The homepage leads to PMP PrepLoop",
+          "detail": "The homepage links to the practice product and the destination responded during this check. A first-click observation from a project manager is still outstanding.",
+          "evidence": [
+            "Homepage navigation check",
+            "Practice page check",
+            "Discovery experiment"
+          ]
+        }
+      ],
+      "impact": "initial"
+    }
+  ],
+  "coverage": {
+    "feedback": "none",
+    "development": "available",
+    "operations": "available",
+    "analytics": "unavailable",
+    "errors": "unavailable",
+    "practice": "unavailable"
+  },
+  "highlights": [
+    {
+      "title": "The homepage leads to PMP PrepLoop",
+      "detail": "The homepage links to the practice product and the destination responded during this check. A first-click observation from a project manager is still outstanding.",
+      "why": "A working link lets us run the discovery test. Observing a visitor will show whether the link is easy to find.",
+      "evidence": [
+        "Homepage navigation check",
+        "Practice page check",
+        "Discovery experiment"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": "homepage-first-click",
+      "title": "Observe one project manager finding PMP PrepLoop",
+      "outcome": "Record their first click, what they expected and whether they reached the practice product.",
+      "status": "proposed"
+    }
+  ]
+}
