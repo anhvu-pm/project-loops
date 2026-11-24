@@ -12,10 +12,10 @@
             "The homepage leads to PMP PrepLoop"
           ],
           "after": [
-            "The first-time visitor check is still open",
+            "The homepage leads to PMP PrepLoop",
             "One question report awaits review"
           ],
-          "reason": "Watch a new visitor before deciding whether the homepage label needs to change. Review the existing report to decide whether the question needs an edit.",
+          "reason": "The open question report is the item that needs review.",
           "evidence": [
             "Public starter example",
             "Homepage and practice checks",
@@ -28,7 +28,6 @@
             "Proposed: Observe one project manager finding PMP PrepLoop"
           ],
           "after": [
-            "Proposed: Observe one project manager finding PMP PrepLoop",
             "Proposed: Review the outstanding practice question report"
           ],
           "reason": "The published action list reflects new proposals and the recorded owner decisions. Publication does not execute an action.",
@@ -48,8 +47,8 @@
       },
       "findings": [
         {
-          "title": "The first-time visitor check is still open",
-          "detail": "The founder tried the route to practice. The public example now explains how to repeat the check with a first-time visitor and record their first click, expectation and outcome.",
+          "title": "The homepage leads to PMP PrepLoop",
+          "detail": "The founder verified the route to practice. Anh rejected the proposed first-time visitor check, so discoverability remains untested.",
           "evidence": [
             "Public starter example",
             "Homepage and practice checks"
@@ -125,9 +124,9 @@
   },
   "highlights": [
     {
-      "title": "The first-time visitor check is still open",
-      "detail": "The founder tried the route to practice. The public example now explains how to repeat the check with a first-time visitor and record their first click, expectation and outcome.",
-      "why": "Watch a new visitor before deciding whether the homepage label needs to change.",
+      "title": "The homepage leads to PMP PrepLoop",
+      "detail": "The founder verified the route to practice. Anh rejected the proposed first-time visitor check.",
+      "why": "Discoverability remains untested.",
       "evidence": [
         "Public starter example",
         "Homepage and practice checks"
@@ -147,7 +146,7 @@
       "id": "homepage-first-click",
       "title": "Observe one project manager finding PMP PrepLoop",
       "outcome": "Record their first click, what they expected and whether they reached the practice product.",
-      "status": "proposed"
+      "status": "dismissed"
     },
     {
       "id": "review-open-question-report",
