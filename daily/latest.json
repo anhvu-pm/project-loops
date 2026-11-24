@@ -1,9 +1,79 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-23T21:59:54Z",
-  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T22:05:36Z",
+  "date": "2026-11-25",
   "purpose": "Help working project managers decide what deserves attention across Project Loops.",
   "logs": [
+    {
+      "changes": [
+        {
+          "field": "What we learn",
+          "before": [
+            "The homepage leads to PMP PrepLoop",
+            "One question report awaits review"
+          ],
+          "after": [
+            "One practice question report still needs a decision",
+            "Traffic and visitor actions now have separate measures",
+            "No saved practice or mock completions in the daily window"
+          ],
+          "reason": "Review the existing report and record whether the question needs a correction. One homepage visitor was measured and none continued to the starter. One About visitor was measured and none opened the demo. These small counts give a baseline for later editions. Guest practice is outside this count.",
+          "evidence": [
+            "Question queue totals",
+            "Recorded project decision",
+            "Production traffic report",
+            "Daily interaction and visitor report",
+            "Saved results by mode",
+            "Practice page check"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-24T22:05:36Z",
+      "coverage": {
+        "feedback": "available",
+        "development": "available",
+        "operations": "available",
+        "analytics": "changed",
+        "errors": "unavailable",
+        "practice": "unchanged"
+      },
+      "findings": [
+        {
+          "title": "One practice question report still needs a decision",
+          "detail": "One question report remains open; no new reports arrived during the daily window. The proposed homepage observation was dismissed.",
+          "why": "Review the existing report and record whether the question needs a correction.",
+          "evidence": [
+            "Question queue totals",
+            "Recorded project decision"
+          ]
+        },
+        {
+          "title": "Traffic and visitor actions now have separate measures",
+          "detail": "The traffic report counted three visitors and five pageviews for the day ending 24 November at 07:00 Vietnam time. In the separate interaction window ending 25 November at 05:05, the tracked calls to action and disclosures had zero events.",
+          "why": "One homepage visitor was measured and none continued to the starter. One About visitor was measured and none opened the demo. These small counts give a baseline for later editions.",
+          "evidence": [
+            "Production traffic report",
+            "Daily interaction and visitor report"
+          ]
+        },
+        {
+          "title": "No saved practice or mock completions in the daily window",
+          "detail": "The saved-results count was zero in both modes for the day ending 25 November at 05:00 Vietnam time. The practice page responded during the site check.",
+          "why": "Guest practice is outside this count.",
+          "evidence": [
+            "Saved results by mode",
+            "Practice page check"
+          ]
+        }
+      ],
+      "nextActions": [
+        {
+          "title": "Review the outstanding practice question report",
+          "status": "proposed"
+        }
+      ],
+      "impact": "changed"
+    },
     {
       "changes": [
         {
@@ -48,7 +118,7 @@
       "findings": [
         {
           "title": "The homepage leads to PMP PrepLoop",
-          "detail": "The founder verified the route to practice. Anh rejected the proposed first-time visitor check, so discoverability remains untested.",
+          "detail": "The founder verified the route to practice. The owner dismissed the proposed first-time visitor check, so discoverability remains untested.",
           "evidence": [
             "Public starter example",
             "Homepage and practice checks"
@@ -118,26 +188,36 @@
     "feedback": "available",
     "development": "available",
     "operations": "available",
-    "analytics": "unavailable",
+    "analytics": "changed",
     "errors": "unavailable",
     "practice": "unchanged"
   },
   "highlights": [
     {
-      "title": "The homepage leads to PMP PrepLoop",
-      "detail": "The founder verified the route to practice. Anh rejected the proposed first-time visitor check.",
-      "why": "Discoverability remains untested.",
+      "title": "One practice question report still needs a decision",
+      "detail": "One question report remains open; no new reports arrived during the daily window. The proposed homepage observation was dismissed.",
+      "why": "Review the existing report and record whether the question needs a correction.",
       "evidence": [
-        "Public starter example",
-        "Homepage and practice checks"
+        "Question queue totals",
+        "Recorded project decision"
       ]
     },
     {
-      "title": "One question report awaits review",
-      "detail": "The question queue has one open report and received no new reports in the review window.",
-      "why": "Review the existing report to decide whether the question needs an edit.",
+      "title": "Traffic and visitor actions now have separate measures",
+      "detail": "The traffic report counted three visitors and five pageviews for the day ending 24 November at 07:00 Vietnam time. In the separate interaction window ending 25 November at 05:05, the tracked calls to action and disclosures had zero events.",
+      "why": "One homepage visitor was measured and none continued to the starter. One About visitor was measured and none opened the demo. These small counts give a baseline for later editions.",
       "evidence": [
-        "Aggregate question report counts"
+        "Production traffic report",
+        "Daily interaction and visitor report"
+      ]
+    },
+    {
+      "title": "No saved practice or mock completions in the daily window",
+      "detail": "The saved-results count was zero in both modes for the day ending 25 November at 05:00 Vietnam time. The practice page responded during the site check.",
+      "why": "Guest practice is outside this count.",
+      "evidence": [
+        "Saved results by mode",
+        "Practice page check"
       ]
     }
   ],
