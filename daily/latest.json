@@ -1,9 +1,78 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-24T22:05:36Z",
-  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T22:02:48Z",
+  "date": "2026-11-26",
   "purpose": "Help working project managers decide what deserves attention across Project Loops.",
   "logs": [
+    {
+      "changes": [
+        {
+          "field": "What we learn",
+          "before": [
+            "One practice question report still needs a decision",
+            "Traffic and visitor actions now have separate measures",
+            "No saved practice or mock completions in the daily window"
+          ],
+          "after": [
+            "One homepage visitor followed the free starter link",
+            "Pageviews rose from five to twenty with three visitors in both windows",
+            "One practice question report still needs review"
+          ],
+          "reason": "The starter path was used. A click does not establish a signup or a purchase. More pages were viewed while the measured audience stayed the same size. Review the outstanding report and record whether the question needs a correction. Guest practice is outside the saved completion count.",
+          "evidence": [
+            "Daily interaction report",
+            "Visitor funnels",
+            "Production traffic reports",
+            "Question queue totals",
+            "Saved results by mode"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-25T22:02:48Z",
+      "coverage": {
+        "feedback": "available",
+        "development": "available",
+        "operations": "available",
+        "analytics": "changed",
+        "errors": "unavailable",
+        "practice": "unchanged"
+      },
+      "findings": [
+        {
+          "title": "One homepage visitor followed the free starter link",
+          "detail": "In the daily interaction window, the starter, Plus and Pro links each received one click. The setup link, demo and daily logs recorded zero interactions. One homepage visitor continued to the starter; the one About visitor did not open the demo.",
+          "why": "The starter path was used. A click does not establish a signup or a purchase.",
+          "evidence": [
+            "Daily interaction report",
+            "Visitor funnels"
+          ]
+        },
+        {
+          "title": "Pageviews rose from five to twenty with three visitors in both windows",
+          "detail": "The production traffic window ending 25 November at 07:00 Vietnam time counted twenty pageviews. The preceding window counted five.",
+          "why": "More pages were viewed while the measured audience stayed the same size.",
+          "evidence": [
+            "Production traffic reports"
+          ]
+        },
+        {
+          "title": "One practice question report still needs review",
+          "detail": "No new question reports or saved practice or mock completions were recorded in the day ending 26 November at 05:00 Vietnam time. One question report remains open.",
+          "why": "Review the outstanding report and record whether the question needs a correction. Guest practice is outside the saved completion count.",
+          "evidence": [
+            "Question queue totals",
+            "Saved results by mode"
+          ]
+        }
+      ],
+      "nextActions": [
+        {
+          "title": "Review the outstanding practice question report",
+          "status": "proposed"
+        }
+      ],
+      "impact": "changed"
+    },
     {
       "changes": [
         {
@@ -194,30 +263,29 @@
   },
   "highlights": [
     {
-      "title": "One practice question report still needs a decision",
-      "detail": "One question report remains open; no new reports arrived during the daily window. The proposed homepage observation was dismissed.",
-      "why": "Review the existing report and record whether the question needs a correction.",
+      "title": "One homepage visitor followed the free starter link",
+      "detail": "In the daily interaction window, the starter, Plus and Pro links each received one click. The setup link, demo and daily logs recorded zero interactions. One homepage visitor continued to the starter; the one About visitor did not open the demo.",
+      "why": "The starter path was used. A click does not establish a signup or a purchase.",
+      "evidence": [
+        "Daily interaction report",
+        "Visitor funnels"
+      ]
+    },
+    {
+      "title": "Pageviews rose from five to twenty with three visitors in both windows",
+      "detail": "The production traffic window ending 25 November at 07:00 Vietnam time counted twenty pageviews. The preceding window counted five.",
+      "why": "More pages were viewed while the measured audience stayed the same size.",
+      "evidence": [
+        "Production traffic reports"
+      ]
+    },
+    {
+      "title": "One practice question report still needs review",
+      "detail": "No new question reports or saved practice or mock completions were recorded in the day ending 26 November at 05:00 Vietnam time. One question report remains open.",
+      "why": "Review the outstanding report and record whether the question needs a correction. Guest practice is outside the saved completion count.",
       "evidence": [
         "Question queue totals",
-        "Recorded project decision"
-      ]
-    },
-    {
-      "title": "Traffic and visitor actions now have separate measures",
-      "detail": "The traffic report counted three visitors and five pageviews for the day ending 24 November at 07:00 Vietnam time. In the separate interaction window ending 25 November at 05:05, the tracked calls to action and disclosures had zero events.",
-      "why": "One homepage visitor was measured and none continued to the starter. One About visitor was measured and none opened the demo. These small counts give a baseline for later editions.",
-      "evidence": [
-        "Production traffic report",
-        "Daily interaction and visitor report"
-      ]
-    },
-    {
-      "title": "No saved practice or mock completions in the daily window",
-      "detail": "The saved-results count was zero in both modes for the day ending 25 November at 05:00 Vietnam time. The practice page responded during the site check.",
-      "why": "Guest practice is outside this count.",
-      "evidence": [
-        "Saved results by mode",
-        "Practice page check"
+        "Saved results by mode"
       ]
     }
   ],
