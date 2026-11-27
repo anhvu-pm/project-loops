@@ -1,9 +1,86 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-25T22:02:48Z",
-  "date": "2026-11-26",
+  "publishedAt": "2026-11-27T02:53:59Z",
+  "date": "2026-11-27",
   "purpose": "Help working project managers decide what deserves attention across Project Loops.",
   "logs": [
+    {
+      "changes": [
+        {
+          "field": "What we learn",
+          "before": [
+            "One homepage visitor followed the free starter link",
+            "Pageviews rose from five to twenty with three visitors in both windows",
+            "One practice question report still needs review"
+          ],
+          "after": [
+            "The outstanding question report was dismissed",
+            "One About visitor opened the demo",
+            "Aggregate analytics now include weekly comparisons"
+          ],
+          "reason": "The review action is complete. This records use of the demo by one visitor. Check future editions for repeat use. Readers can use a longer window when daily visitor counts are small.",
+          "evidence": [
+            "Question queue status",
+            "Prior daily action",
+            "Interaction totals",
+            "Visitor funnels",
+            "Studio release",
+            "Weekly production traffic report"
+          ]
+        },
+        {
+          "field": "Next Actions",
+          "before": [
+            "Proposed: Review the outstanding practice question report"
+          ],
+          "after": [],
+          "reason": "The published action list reflects new proposals and the recorded owner decisions. Publication does not execute an action.",
+          "evidence": [
+            "Tracked actions and reviewed proposals"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-27T02:53:59Z",
+      "coverage": {
+        "feedback": "available",
+        "development": "available",
+        "operations": "available",
+        "analytics": "changed",
+        "errors": "unavailable",
+        "practice": "unchanged"
+      },
+      "findings": [
+        {
+          "title": "The outstanding question report was dismissed",
+          "detail": "The report was dismissed on 26 November. No reports remain open and no new reports arrived in the daily window.",
+          "why": "The review action is complete.",
+          "evidence": [
+            "Question queue status",
+            "Prior daily action"
+          ]
+        },
+        {
+          "title": "One About visitor opened the demo",
+          "detail": "The daily report counted one demo open and one log open. One of one About visitors opened the demo. One homepage visitor was measured and none continued to the starter.",
+          "why": "This records use of the demo by one visitor. Check future editions for repeat use.",
+          "evidence": [
+            "Interaction totals",
+            "Visitor funnels"
+          ]
+        },
+        {
+          "title": "Aggregate analytics now include weekly comparisons",
+          "detail": "The project added weekly comparisons and context for reading the daily logs. The latest seven-day production traffic snapshot counted seventeen visitors and one hundred ninety-eight pageviews.",
+          "why": "Readers can use a longer window when daily visitor counts are small.",
+          "evidence": [
+            "Studio release",
+            "Weekly production traffic report"
+          ]
+        }
+      ],
+      "nextActions": [],
+      "impact": "changed"
+    },
     {
       "changes": [
         {
@@ -263,29 +340,30 @@
   },
   "highlights": [
     {
-      "title": "One homepage visitor followed the free starter link",
-      "detail": "In the daily interaction window, the starter, Plus and Pro links each received one click. The setup link, demo and daily logs recorded zero interactions. One homepage visitor continued to the starter; the one About visitor did not open the demo.",
-      "why": "The starter path was used. A click does not establish a signup or a purchase.",
+      "title": "The outstanding question report was dismissed",
+      "detail": "The report was dismissed on 26 November. No reports remain open and no new reports arrived in the daily window.",
+      "why": "The review action is complete.",
       "evidence": [
-        "Daily interaction report",
+        "Question queue status",
+        "Prior daily action"
+      ]
+    },
+    {
+      "title": "One About visitor opened the demo",
+      "detail": "The daily report counted one demo open and one log open. One of one About visitors opened the demo. One homepage visitor was measured and none continued to the starter.",
+      "why": "This records use of the demo by one visitor. Check future editions for repeat use.",
+      "evidence": [
+        "Interaction totals",
         "Visitor funnels"
       ]
     },
     {
-      "title": "Pageviews rose from five to twenty with three visitors in both windows",
-      "detail": "The production traffic window ending 25 November at 07:00 Vietnam time counted twenty pageviews. The preceding window counted five.",
-      "why": "More pages were viewed while the measured audience stayed the same size.",
+      "title": "Aggregate analytics now include weekly comparisons",
+      "detail": "The project added weekly comparisons and context for reading the daily logs. The latest seven-day production traffic snapshot counted seventeen visitors and one hundred ninety-eight pageviews.",
+      "why": "Readers can use a longer window when daily visitor counts are small.",
       "evidence": [
-        "Production traffic reports"
-      ]
-    },
-    {
-      "title": "One practice question report still needs review",
-      "detail": "No new question reports or saved practice or mock completions were recorded in the day ending 26 November at 05:00 Vietnam time. One question report remains open.",
-      "why": "Review the outstanding report and record whether the question needs a correction. Guest practice is outside the saved completion count.",
-      "evidence": [
-        "Question queue totals",
-        "Saved results by mode"
+        "Studio release",
+        "Weekly production traffic report"
       ]
     }
   ],
@@ -299,8 +377,8 @@
     {
       "id": "review-open-question-report",
       "title": "Review the outstanding practice question report",
-      "outcome": "Record whether the question needs a correction and update the report after review.",
-      "status": "proposed"
+      "outcome": "The question report was dismissed and the review queue is empty.",
+      "status": "done"
     }
   ]
 }
