@@ -1,9 +1,67 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-27T02:53:59Z",
-  "date": "2026-11-27",
+  "publishedAt": "2026-11-28T02:14:01Z",
+  "date": "2026-11-28",
   "purpose": "Help working project managers decide what deserves attention across Project Loops.",
   "logs": [
+    {
+      "changes": [
+        {
+          "field": "What we learn",
+          "before": [
+            "The outstanding question report was dismissed",
+            "One About visitor opened the demo",
+            "Aggregate analytics now include weekly comparisons"
+          ],
+          "after": [
+            "The demo recorded no opens in the latest daily window",
+            "The practice review queue stayed empty"
+          ],
+          "reason": "The previous edition recorded one demo open. With one measured About visitor in each window, there is too little evidence to change the page. The previous review is complete and the queue requires no follow-up today.",
+          "evidence": [
+            "Daily interaction report",
+            "Visitor funnels",
+            "Previous edition",
+            "Question report totals",
+            "Saved results by mode",
+            "Practice page check"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-28T02:14:01Z",
+      "coverage": {
+        "feedback": "available",
+        "development": "available",
+        "operations": "available",
+        "analytics": "changed",
+        "errors": "unavailable",
+        "practice": "unchanged"
+      },
+      "findings": [
+        {
+          "title": "The demo recorded no opens in the latest daily window",
+          "detail": "One visitor reached About and none opened the demo. One visitor reached the homepage and none followed the starter link. All six tracked interaction counts were zero.",
+          "why": "The previous edition recorded one demo open. With one measured About visitor in each window, there is too little evidence to change the page.",
+          "evidence": [
+            "Daily interaction report",
+            "Visitor funnels",
+            "Previous edition"
+          ]
+        },
+        {
+          "title": "The practice review queue stayed empty",
+          "detail": "There were no new question reports or saved practice or mock completions in the daily window. The practice page responded during the site check.",
+          "why": "The previous review is complete and the queue requires no follow-up today.",
+          "evidence": [
+            "Question report totals",
+            "Saved results by mode",
+            "Practice page check"
+          ]
+        }
+      ],
+      "nextActions": [],
+      "impact": "changed"
+    },
     {
       "changes": [
         {
@@ -340,30 +398,23 @@
   },
   "highlights": [
     {
-      "title": "The outstanding question report was dismissed",
-      "detail": "The report was dismissed on 26 November. No reports remain open and no new reports arrived in the daily window.",
-      "why": "The review action is complete.",
+      "title": "The demo recorded no opens in the latest daily window",
+      "detail": "One visitor reached About and none opened the demo. One visitor reached the homepage and none followed the starter link. All six tracked interaction counts were zero.",
+      "why": "The previous edition recorded one demo open. With one measured About visitor in each window, there is too little evidence to change the page.",
       "evidence": [
-        "Question queue status",
-        "Prior daily action"
+        "Daily interaction report",
+        "Visitor funnels",
+        "Previous edition"
       ]
     },
     {
-      "title": "One About visitor opened the demo",
-      "detail": "The daily report counted one demo open and one log open. One of one About visitors opened the demo. One homepage visitor was measured and none continued to the starter.",
-      "why": "This records use of the demo by one visitor. Check future editions for repeat use.",
+      "title": "The practice review queue stayed empty",
+      "detail": "There were no new question reports or saved practice or mock completions in the daily window. The practice page responded during the site check.",
+      "why": "The previous review is complete and the queue requires no follow-up today.",
       "evidence": [
-        "Interaction totals",
-        "Visitor funnels"
-      ]
-    },
-    {
-      "title": "Aggregate analytics now include weekly comparisons",
-      "detail": "The project added weekly comparisons and context for reading the daily logs. The latest seven-day production traffic snapshot counted seventeen visitors and one hundred ninety-eight pageviews.",
-      "why": "Readers can use a longer window when daily visitor counts are small.",
-      "evidence": [
-        "Studio release",
-        "Weekly production traffic report"
+        "Question report totals",
+        "Saved results by mode",
+        "Practice page check"
       ]
     }
   ],
